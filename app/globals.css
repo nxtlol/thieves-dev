@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+::selection {
+  background: gray;
+}
+
+body {
+  font-family: "GeneralSans";
+  @apply bg-black text-white;
+}
